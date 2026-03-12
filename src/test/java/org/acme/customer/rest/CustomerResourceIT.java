@@ -1,8 +1,8 @@
-package org.redhat.janus;
+package org.acme.customer.rest;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-public class ExampleResourceIT extends ExampleResourceTest {
+public class CustomerResourceIT extends CustomerResourceTest{
     // Execute the same tests but in packaged mode.
 }
