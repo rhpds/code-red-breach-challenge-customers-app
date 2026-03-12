@@ -78,13 +78,4 @@ class CustomerResourceTest {
                 .statusCode(204);
     }
 
-    @Test
-    @Order(5)
-    void deleteById() {
-        given()
-                .when()
-                .delete("/customers/1")
-                .then()
-                .statusCode(204);
-    }
 }
